@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "first_seen": "2025-09-01T10:00:00",
+      "current_status": "error",
+      "metadata": {
+        "event": {
+          "id": "test-1",
+          "attributes": {
+            "timestamp": 1725181200000,
+            "tags": [
+              "service:web-app",
+              "kube_cluster_name:test-cluster",
+              "kube_namespace:production",
+              "pod_name:web-app-1"
+            ],
+            "message": "High CPU usage detected"
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "first_seen": "2025-09-01T10:01:00",
+      "current_status": "error",
+      "metadata": {
+        "event": {
+          "id": "test-2",
+          "attributes": {
+            "timestamp": 1725181260000,
+            "tags": [
+              "service:web-app",
+              "kube_cluster_name:test-cluster",
+              "kube_namespace:production",
+              "pod_name:web-app-2"
+            ],
+            "message": "High memory usage detected"
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "first_seen": "2025-09-01T10:05:00",
+      "current_status": "error",
+      "metadata": {
+        "event": {
+          "id": "test-3",
+          "attributes": {
+            "timestamp": 1725181500000,
+            "tags": [
+              "service:database",
+              "kube_cluster_name:test-cluster",
+              "kube_namespace:production",
+              "pod_name:db-1"
+            ],
+            "message": "Connection timeout"
+          }
+        }
+      }
+    }
+  ]
+}
